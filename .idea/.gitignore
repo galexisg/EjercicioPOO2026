@@ -1,0 +1,53 @@
+# =========================
+# Archivos compilados de Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Carpetas de salida por defecto
+/bin/
+/obj/
+/build/
+/out/
+/target/
+
+# =========================
+# IntelliJ IDEA (Tu compañero)
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+/out/production/
+
+# =========================
+# Visual Studio Code (Tú)
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Archivos del Sistema Operativo
+# =========================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux / macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trash-*
+*~
+.fuse_hidden*
+.directory
