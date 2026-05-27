@@ -1,0 +1,16 @@
+# Forzar siempre LF (Line Feed) para todos los archivos de texto
+* text=auto eol=lf
+
+# Asegurar específicamente que el código fuente y configs usen LF
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Indicar archivos binarios para que Git no intente modificar sus saltos de línea
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.jar binary
