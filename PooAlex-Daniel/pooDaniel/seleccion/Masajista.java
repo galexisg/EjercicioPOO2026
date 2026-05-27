@@ -1,4 +1,4 @@
-package seleccion;
+package pooDaniel.seleccion;
 
 // Hereda de la clase padre
 public class Masajista extends SeleccionFutbol {

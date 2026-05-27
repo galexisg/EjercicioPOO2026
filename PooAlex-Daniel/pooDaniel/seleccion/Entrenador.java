@@ -1,4 +1,4 @@
-package seleccion;
+package pooDaniel.seleccion;
 
 // Hereda de la clase padre que defina tu compañero
 public class Entrenador extends SeleccionFutbol {
