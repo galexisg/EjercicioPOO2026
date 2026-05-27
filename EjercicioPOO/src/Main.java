@@ -1,13 +1,57 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main {
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+    public static void main(String[] args) {
+
+        // OBJETO FUTBOLISTA
+        Futbolista futbolista1 = new Futbolista(
+                1,
+                "Leandro",
+                "Paredes",
+                13,
+                5,
+                "Delantero"
+        );
+
+        // OBJETO ENTRENADOR
+        Entrenador entrenador1 = new Entrenador(
+                2,
+                "Carlo",
+                "Ancelotti",
+                64,
+                "FED123"
+        );
+
+        // OBJETO MASAJISTA
+        Masajista masajista1 = new Masajista(
+                3,
+                "Juan",
+                "Perez",
+                40,
+                "Fisioterapia",
+                15
+        );
+
+        // PROBAR METODOS
+
+        System.out.println("===== FUTBOLISTA =====");
+        futbolista1.concentrarse();
+        futbolista1.viajar();
+        futbolista1.entrenar();
+        futbolista1.jugarPartido();
+
+        System.out.println();
+
+        System.out.println("===== ENTRENADOR =====");
+        entrenador1.concentrarse();
+        entrenador1.viajar();
+        entrenador1.dirigirPartido();
+        entrenador1.dirigirEntrenamiento();
+
+        System.out.println();
+
+        System.out.println("===== MASAJISTA =====");
+        masajista1.concentrarse();
+        masajista1.viajar();
+        masajista1.darMasaje();
     }
 }
